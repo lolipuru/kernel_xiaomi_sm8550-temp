@@ -2187,3 +2187,7 @@ endif
 config TARGET_PRODUCT_FUXI
 	bool "Target product is fuxi"
 	default n
+
+config MI_CAMERA_FUXI
+	bool "Target product uses fuxi-t-oss camera driver"
+	default n
